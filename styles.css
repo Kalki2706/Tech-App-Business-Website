@@ -8,8 +8,8 @@ body::-webkit-scrollbar {
 }
 
 .logo {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   max-width: 100px;
   max-height: 100px;
   margin: 40px 0 0 100px;
@@ -23,21 +23,32 @@ h1 {
 }
 
 #company_name {
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 650;
   margin-left: 20px;
   display: block;
-  margin: 49px 0 0 15px;
+  margin: 51px 0 0 15px;
   vertical-align: top;
   display: inline-block;
 }
 
 .main_img {
-  max-width: 600px;
+  max-width: 800px;
+  max-height: 700px;
   height: 100%;
   display: flex;
-  margin: -500px 0 0 625px;
-  padding: 0px 530px;
+  margin: 200px 0 0 625px;
+  padding: 0px 450px;
+  position: absolute;
+}
+
+.lens_flare {
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  margin: -750px 0 0 540px;
+  padding: 90px 330px;
+  position: none;
 }
 
 h1 {
@@ -47,6 +58,6 @@ h1 {
 }
 
 .heading {
-  margin: 100px 0 0 100px;
+  margin: 90px 0 0 100px;
   display: flex;
 }
