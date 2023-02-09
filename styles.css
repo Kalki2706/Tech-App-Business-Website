@@ -1,7 +1,10 @@
 html {
   background: rgb(16, 23, 40);
-  overflow: hidden;
   height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .logo {
@@ -9,18 +12,41 @@ html {
   height: 70px;
   max-width: 100px;
   max-height: 100px;
-  margin: 40px 0 0 80px;
+  margin: 40px 0 0 100px;
+}
+
+#company_name,
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 #company_name {
-  color: rgb(255, 255, 255);
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 650;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin-left: 20px;
   display: block;
-  margin: 48px 0 0 10px;
+  margin: 49px 0 0 15px;
   vertical-align: top;
   display: inline-block;
+}
+
+.main_img {
+  max-width: 600px;
+  height: 100%;
+  display: flex;
+  margin: -500px 0 0 625px;
+  padding: 0px 530px;
+}
+
+h1 {
+  font-weight: 790;
+  font-size: 120px;
+  width: 700px;
+}
+
+.heading {
+  margin: 100px 0 0 100px;
+  display: flex;
 }
