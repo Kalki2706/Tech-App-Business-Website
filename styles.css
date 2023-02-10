@@ -151,3 +151,17 @@ a {
   margin-top: 100px;
   margin-bottom: -500px;
 }
+
+.sec_main_text {
+  margin: 130px 0 100px 100px;
+  font-size: 90px;
+  font-weight: 790;
+  width: 700px;
+  line-height: 100px;
+}
+
+.sec_sub_text {
+  margin: 0px 100px;
+  font-size: 33px;
+  font-weight: 500;
+}
