@@ -88,3 +88,18 @@ a {
   padding: 4px 10px 8px 10px;
   font-weight: 500;
 }
+
+.break_line {
+  background: linear-gradient(
+    90deg,
+    rgba(119, 63, 192, 1) 1%,
+    rgba(197, 31, 218, 1) 30%,
+    rgba(255, 36, 201, 1) 65%,
+    rgba(255, 25, 67, 1) 100%
+  );
+  height: 10px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  margin: 625px 150px 0 150px;
+}
