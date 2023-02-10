@@ -16,7 +16,8 @@ body::-webkit-scrollbar {
 }
 
 #company_name,
-h1 {
+h1,
+a {
   color: rgb(255, 255, 255);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -37,7 +38,7 @@ h1 {
   max-height: 700px;
   height: 100%;
   display: flex;
-  margin: 200px 0 0 625px;
+  margin: 230px 0 0 625px;
   padding: 0px 450px;
   position: absolute;
 }
@@ -47,7 +48,7 @@ h1 {
   height: 100%;
   display: flex;
   margin: -750px 0 0 540px;
-  padding: 90px 330px;
+  padding: 110px 325px;
   position: none;
 }
 
@@ -55,9 +56,35 @@ h1 {
   font-weight: 790;
   font-size: 120px;
   width: 700px;
+  line-height: 150px;
 }
 
 .heading {
   margin: 90px 0 0 100px;
   display: flex;
+}
+
+.more_button {
+  background: rgb(119, 63, 192);
+  background: linear-gradient(
+    90deg,
+    rgba(119, 63, 192, 1) 1%,
+    rgba(197, 31, 218, 1) 30%,
+    rgba(255, 36, 201, 1) 65%,
+    rgba(255, 25, 67, 1) 100%
+  );
+  border: none;
+  padding: 8px 35px;
+  display: flex;
+  margin: -380px 100px;
+  border-radius: 60px;
+}
+
+a {
+  color: rgb(0 0 0);
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  padding: 4px 10px 8px 10px;
+  font-weight: 500;
 }
