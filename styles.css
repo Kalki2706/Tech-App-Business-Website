@@ -319,7 +319,7 @@ a {
 }
 
 .connect {
-  margin: -80px 0px 100px 1110px;
+  margin: -80px 0px 100px 1100px;
   font-size: 90px;
   font-weight: 790;
   width: 900px;
@@ -358,8 +358,27 @@ a {
   border: none;
   padding: 8px 35px;
   display: flex;
-  align-items: center;
-  margin: -80px 100px;
+  margin: -80px 0 0 1110px;
   border-radius: 60px;
   cursor: pointer;
+}
+
+.top_button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 25, 67, 1) 1%,
+    rgba(255, 36, 201, 1) 30%,
+    rgba(197, 31, 218, 1) 65%,
+    rgba(119, 63, 192, 1) 100%
+  );
+}
+
+.top_button:active {
+  background: linear-gradient(
+    90deg,
+    rgba(119, 63, 192, 1) 1%,
+    rgba(197, 31, 218, 1) 30%,
+    rgba(255, 36, 201, 1) 65%,
+    rgba(255, 25, 67, 1) 100%
+  );
 }
