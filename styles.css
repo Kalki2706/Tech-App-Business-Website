@@ -21,7 +21,9 @@ a,
 .main_text,
 .sub_text,
 .sec_main_text,
-.sec_sub_text {
+.sec_sub_text,
+.third_main_text,
+.third_sub_text {
   color: rgb(255, 255, 255);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -164,4 +166,46 @@ a {
   margin: 0px 100px;
   font-size: 33px;
   font-weight: 500;
+}
+
+.sec_txt {
+  margin-bottom: 60px;
+}
+
+.sec_txt_one {
+  width: 700px;
+  line-height: 50px;
+}
+
+.sec_img {
+  max-width: 800px;
+  max-height: 700px;
+  height: 100%;
+  display: flex;
+  margin: -500px 0 -500px 625px;
+  padding: 0px 450px;
+}
+
+.third_main_text {
+  margin: 120px 0 100px 100px;
+  font-size: 90px;
+  font-weight: 790;
+  width: 900px;
+  line-height: 100px;
+}
+
+.third_text {
+  width: 600px;
+  margin: 0px 0px 50px 100px;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.third_text_one {
+  width: 650px;
+  margin: 0px 0px 0px 100px;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 50px;
 }
