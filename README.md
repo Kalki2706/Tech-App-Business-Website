@@ -1,6 +1,6 @@
 # Clone : Tech-App-Business-Website
 
-Just home page is ready. Main page will make it later.
+Page is almost ready only social media link has to be added.😀
 
 #Preview
 
