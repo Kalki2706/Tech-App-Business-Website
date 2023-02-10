@@ -23,7 +23,9 @@ a,
 .sec_main_text,
 .sec_sub_text,
 .third_main_text,
-.third_sub_text {
+.third_sub_text,
+.fourth_main_text,
+.fourth_sub_text {
   color: rgb(255, 255, 255);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -187,7 +189,7 @@ a {
 }
 
 .third_main_text {
-  margin: 120px 0 100px 100px;
+  margin: 120px 0px 100px 1020px;
   font-size: 90px;
   font-weight: 790;
   width: 900px;
@@ -196,16 +198,24 @@ a {
 
 .third_text {
   width: 600px;
-  margin: 0px 0px 50px 100px;
+  margin: 0px 0px 50px 1019px;
   font-size: 33px;
   font-weight: 500;
   line-height: 50px;
 }
 
 .third_text_one {
-  width: 650px;
-  margin: 0px 0px 0px 100px;
+  width: 700px;
+  margin: 0px 0px 0px 1019px;
   font-size: 33px;
   font-weight: 500;
   line-height: 50px;
+}
+
+.third_img {
+  max-width: 800px;
+  max-height: 700px;
+  height: 100%;
+  display: flex;
+  margin: -450px 0 -510px 150px;
 }
