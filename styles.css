@@ -26,7 +26,12 @@ a,
 .third_sub_text,
 .fourth_main_text,
 .fourth_sub_text,
-.fourth_text_two {
+.fourth_text_two,
+.company_name_one,
+.connect,
+.number,
+.address,
+.mail {
   color: rgb(255, 255, 255);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -257,6 +262,49 @@ a {
   max-height: 700px;
   height: 100%;
   display: flex;
-  margin: -550px 0 -510px 625px;
+  margin: -550px 0 -400px 625px;
   padding: 0px 450px;
+}
+
+.logo_one {
+  width: 80px;
+  height: 80px;
+  max-width: 100px;
+  max-height: 100px;
+  margin: 290px 0 0 100px;
+}
+
+.company_name_one {
+  font-size: 35px;
+  font-weight: 650;
+  margin-left: 20px;
+  display: block;
+  margin: 300px 0 0 15px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.connect {
+  margin: -80px 0px 100px 1110px;
+  font-size: 90px;
+  font-weight: 790;
+  width: 900px;
+  line-height: 100px;
+}
+
+.number,
+.address,
+.mail {
+  font-size: 33px;
+  font-weight: 480;
+  line-height: 55px;
+  margin-left: 1107px;
+}
+
+.number {
+  margin-top: -60px;
+}
+
+.mail {
+  margin-bottom: 400px;
 }
