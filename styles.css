@@ -49,11 +49,6 @@ a,
   src: url("CodecPro-ExtraBold.ttf") format("truetype");
 }
 
-.sub_text,
-.sec_sub_text,
-.sec_text,
-.sec_text_one,
-.third_sub_text,
 #company_name {
   font-size: 35px;
   font-weight: 650;
@@ -112,8 +107,6 @@ h1 {
   margin: -380px 100px;
   border-radius: 60px;
   cursor: pointer;
-  transition-property: background 5s;
-  transition: opacity 0.2s;
 }
 
 .more_button:hover {
@@ -176,10 +169,11 @@ a {
 }
 
 .sub_text {
+  font-family: "Codec Pro Bold";
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 34px;
-  line-height: 50px;
-  /* font-weight: bolder; */
+  line-height: 55px;
   margin-top: 100px;
   margin-bottom: -500px;
 }
@@ -193,6 +187,7 @@ a {
 }
 
 .sec_sub_text {
+  font-family: "Codec Pro Bold";
   src: url("CodecPro-Light.ttf") format("truetype");
   margin: 0px 100px;
   font-size: 33px;
@@ -227,7 +222,7 @@ a {
 }
 
 .third_text {
-  font-family: "Codec Pro";
+  font-family: "Codec Pro Bold";
   color: rgb(255, 255, 255);
   src: url("CodecPro-Light.ttf") format("truetype");
   width: 600px;
@@ -238,7 +233,7 @@ a {
 }
 
 .third_text_one {
-  font-family: "Codec Pro";
+  font-family: "Codec Pro Bold";
   color: rgb(255, 255, 255);
   src: url("CodecPro-Light.ttf") format("truetype");
   width: 700px;
@@ -265,7 +260,7 @@ a {
 }
 
 .fourth_text {
-  font-family: "Codec Pro";
+  font-family: "Codec Pro Bold";
   src: url("CodecPro-Light.ttf") format("truetype");
   color: rgb(255, 255, 255);
   width: 600px;
@@ -277,7 +272,7 @@ a {
 
 .fourth_text_one {
   width: 600px;
-  font-family: "Codec Pro";
+  font-family: "Codec Pro Bold";
   color: rgb(255, 255, 255);
   src: url("CodecPro-Light.ttf") format("truetype");
   margin: 0px 0px 0px 100px;
@@ -287,7 +282,7 @@ a {
 }
 
 .fourth_text_two {
-  font-family: "Codec Pro";
+  font-family: "Codec Pro Bold";
   color: rgb(255, 255, 255);
   src: url("CodecPro-Light.ttf") format("truetype");
   font-size: 33px;
@@ -301,7 +296,7 @@ a {
   max-height: 700px;
   height: 100%;
   display: flex;
-  margin: -550px 0 -400px 625px;
+  margin: -600px 0 -400px 625px;
   padding: 0px 450px;
 }
 
@@ -318,7 +313,7 @@ a {
   font-weight: 650;
   margin-left: 20px;
   display: block;
-  margin: 300px 0 0 15px;
+  margin: 314px 0 0 15px;
   vertical-align: top;
   display: inline-block;
 }
@@ -349,4 +344,22 @@ a {
 
 .mail {
   margin-bottom: 400px;
+}
+
+.top_button {
+  background: rgb(119, 63, 192);
+  background: linear-gradient(
+    90deg,
+    rgba(119, 63, 192, 1) 1%,
+    rgba(197, 31, 218, 1) 30%,
+    rgba(255, 36, 201, 1) 65%,
+    rgba(255, 25, 67, 1) 100%
+  );
+  border: none;
+  padding: 8px 35px;
+  display: flex;
+  align-items: center;
+  margin: -80px 100px;
+  border-radius: 60px;
+  cursor: pointer;
 }
