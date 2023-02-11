@@ -346,43 +346,6 @@ a {
   margin-bottom: 400px;
 }
 
-.top_button {
-  background: rgb(119, 63, 192);
-  background: linear-gradient(
-    90deg,
-    rgba(119, 63, 192, 1) 1%,
-    rgba(197, 31, 218, 1) 30%,
-    rgba(255, 36, 201, 1) 65%,
-    rgba(255, 25, 67, 1) 100%
-  );
-  border: none;
-  padding: 8px 35px;
-  display: flex;
-  margin: -80px 0 0 1110px;
-  border-radius: 60px;
-  cursor: pointer;
-}
-
-.top_button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 25, 67, 1) 1%,
-    rgba(255, 36, 201, 1) 30%,
-    rgba(197, 31, 218, 1) 65%,
-    rgba(119, 63, 192, 1) 100%
-  );
-}
-
-.top_button:active {
-  background: linear-gradient(
-    90deg,
-    rgba(119, 63, 192, 1) 1%,
-    rgba(197, 31, 218, 1) 30%,
-    rgba(255, 36, 201, 1) 65%,
-    rgba(255, 25, 67, 1) 100%
-  );
-}
-
 .linkdin,
 .ig,
 .fb,
@@ -390,7 +353,6 @@ a {
   width: 60px;
   height: 60px;
   display: flex;
-  justify-content: center;
 }
 
 .linkdin {
@@ -446,9 +408,8 @@ a {
 .fb {
   width: 57px;
   height: 56px;
-  margin: -258px 0 300px 1300px;
+  margin: -258px 0 300px 1295px;
   cursor: pointer;
-  /* position: absolute; */
 }
 
 .fb:hover {
@@ -456,15 +417,13 @@ a {
   -webkit-box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
   box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
   border-radius: 14px;
-  /* padding: 2px 0; */
 }
 
 .twitter {
-  width: 50px;
-  height: 50px;
-  margin: -352px 0 300px 1390px;
+  width: 58px;
+  height: 58px;
+  margin: -357px 0 300px 1385px;
   cursor: pointer;
-  /* position: relative; */
 }
 
 .twitter:hover {
@@ -473,4 +432,43 @@ a {
   box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
   border-radius: 25px;
   background-size: 100% 100%;
+}
+
+.top_button {
+  background: rgb(119, 63, 192);
+  background: linear-gradient(
+    90deg,
+    rgba(119, 63, 192, 1) 1%,
+    rgba(197, 31, 218, 1) 30%,
+    rgba(255, 36, 201, 1) 65%,
+    rgba(255, 25, 67, 1) 100%
+  );
+  border: none;
+  padding: 8px 35px;
+  display: flex;
+  display: inline-block;
+  margin: 10px 0 0 110px;
+  margin-bottom: 100px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.top_button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 25, 67, 1) 1%,
+    rgba(255, 36, 201, 1) 30%,
+    rgba(197, 31, 218, 1) 65%,
+    rgba(119, 63, 192, 1) 100%
+  );
+}
+
+.top_button:active {
+  background: linear-gradient(
+    90deg,
+    rgba(119, 63, 192, 1) 1%,
+    rgba(197, 31, 218, 1) 30%,
+    rgba(255, 36, 201, 1) 65%,
+    rgba(255, 25, 67, 1) 100%
+  );
 }
