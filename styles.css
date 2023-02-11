@@ -22,7 +22,8 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.logo {
+.logo,
+.logo_one {
   width: 80px;
   height: 80px;
   max-width: 100px;
@@ -44,10 +45,10 @@ a,
   src: url("CodecPro-ExtraBold.ttf") format("truetype");
 }
 
-#company_name {
+#company_name,
+.company_name_one {
   font-size: 35px;
   font-weight: 650;
-  margin-left: 20px;
   display: block;
   margin: 65px 0 0 15px;
   vertical-align: top;
@@ -73,10 +74,17 @@ a,
   position: none;
 }
 
+h1,
+.main_text,
+.sec_main_text,
+.third_main_text,
+.fourth_main_text {
+  font-weight: 790;
+}
+
 h1 {
   text-shadow: 0 0 7px rgb(30, 55, 162), 0 0 10px rgb(30, 55, 162),
     0 0 21px rgb(30, 55, 162), 0 0 42px rgb(30, 55, 162);
-  font-weight: 790;
   font-size: 120px;
   width: 700px;
   line-height: 150px;
@@ -153,7 +161,6 @@ a {
 
 .main_text {
   font-size: 90px;
-  font-weight: 790;
   text-align: center;
   margin: 100px;
   line-height: 100px;
@@ -176,7 +183,6 @@ a {
 .sec_main_text {
   margin: 130px 0 100px 100px;
   font-size: 90px;
-  font-weight: 790;
   width: 700px;
   line-height: 100px;
 }
@@ -211,7 +217,6 @@ a {
 .third_main_text {
   margin: 120px 0px 100px 1020px;
   font-size: 90px;
-  font-weight: 790;
   width: 900px;
   line-height: 100px;
 }
@@ -249,40 +254,32 @@ a {
 .fourth_main_text {
   margin: 140px 0 100px 100px;
   font-size: 90px;
-  font-weight: 790;
   width: 800px;
   line-height: 100px;
 }
 
-.fourth_text {
-  font-family: "Codec Pro Bold";
-  src: url("CodecPro-Light.ttf") format("truetype");
-  color: rgb(255, 255, 255);
-  width: 600px;
-  margin: 0px 0px 50px 100px;
+.fourth_text,
+.fourth_text_one,
+.fourth_text_two {
   font-size: 33px;
   font-weight: 500;
   line-height: 50px;
+  font-family: "Codec Pro Bold";
+  src: url("CodecPro-Light.ttf") format("truetype");
+  color: rgb(255, 255, 255);
+}
+
+.fourth_text {
+  width: 600px;
+  margin: 0px 0px 50px 100px;
 }
 
 .fourth_text_one {
   width: 600px;
-  font-family: "Codec Pro Bold";
-  color: rgb(255, 255, 255);
-  src: url("CodecPro-Light.ttf") format("truetype");
   margin: 0px 0px 0px 100px;
-  font-size: 33px;
-  font-weight: 500;
-  line-height: 50px;
 }
 
 .fourth_text_two {
-  font-family: "Codec Pro Bold";
-  color: rgb(255, 255, 255);
-  src: url("CodecPro-Light.ttf") format("truetype");
-  font-size: 33px;
-  font-weight: 500;
-  line-height: 50px;
   margin: 0 100px;
 }
 
@@ -296,25 +293,16 @@ a {
 }
 
 .logo_one {
-  width: 80px;
-  height: 80px;
-  max-width: 100px;
-  max-height: 100px;
   margin: 110px 0 0 100px;
 }
 
 .company_name_one {
-  font-size: 35px;
-  font-weight: 650;
-  margin-left: 20px;
-  display: block;
   margin: 133px 0 0 15px;
-  vertical-align: top;
-  display: inline-block;
 }
 
 .connect {
-  margin: -90px 0px 100px 1100px;
+  text-align: center;
+  margin: -90px 0px 100px 840px;
   font-size: 90px;
   font-weight: 790;
   width: 900px;
@@ -345,28 +333,27 @@ a {
 .ig,
 .fb,
 .twitter {
-  width: 60px;
-  height: 60px;
   display: flex;
+  cursor: pointer;
+  border-radius: 16px;
 }
 
 .linkdin {
+  width: 60px;
+  height: 60px;
   margin: -220px 0 300px 1105px;
-  cursor: pointer;
 }
 
 .linkdin:hover {
   background-color: rgb(12, 100, 197);
   -webkit-box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
   box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
-  border-radius: 16px;
 }
 
 .ig {
   width: 59px;
   height: 59px;
   margin: -387px 0 200px 1205px;
-  cursor: pointer;
 }
 
 .ig:hover {
@@ -397,14 +384,12 @@ a {
   );
   -webkit-box-shadow: 0 0 30px rgba(188, 24, 136, 0.582);
   box-shadow: 0 0 30px rgba(188, 24, 136, 0.582);
-  border-radius: 16px;
 }
 
 .fb {
   width: 57px;
   height: 56px;
   margin: -285px 0 300px 1295px;
-  cursor: pointer;
 }
 
 .fb:hover {
@@ -418,7 +403,6 @@ a {
   width: 58px;
   height: 58px;
   margin: -382px 0 300px 1385px;
-  cursor: pointer;
 }
 
 .twitter:hover {
