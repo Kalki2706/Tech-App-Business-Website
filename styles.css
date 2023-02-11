@@ -427,9 +427,9 @@ a {
 }
 
 .twitter:hover {
-  background: rgb(12, 100, 197);
-  -webkit-box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
-  box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
+  background: rgb(29, 161, 242);
+  -webkit-box-shadow: 0 0 30px rgba(29, 160, 242, 0.562);
+  box-shadow: 0 0 30px rgba(29, 160, 242, 0.562);
   border-radius: 25px;
   background-size: 100% 100%;
 }
@@ -445,7 +445,7 @@ a {
   border: none;
   padding: 15px 18px;
   display: inline-block;
-  margin: -100px 830px 0 830px;
+  margin: -100px 825px 0 825px;
   margin-bottom: 60px;
   border-radius: 60px;
   cursor: pointer;
