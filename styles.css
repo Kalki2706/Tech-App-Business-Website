@@ -382,3 +382,11 @@ a {
     rgba(255, 25, 67, 1) 100%
   );
 }
+
+.linkdin {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: -240px 0 300px 1105px;
+}
