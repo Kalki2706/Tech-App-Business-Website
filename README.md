@@ -1,6 +1,6 @@
 # Clone : Tech-App-Business-Website
 
-The <a href="https://kalki2706.github.io/Tech-App-Business-Website/" target="_blank" style="color:red;">Website Clone</a> is ready 😍
+The <a href="https://kalki2706.github.io/Tech-App-Business-Website/" target="_blank" >Website Clone</a> is ready 😍
 
 #Preview
 
