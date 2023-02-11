@@ -305,7 +305,7 @@ a {
   height: 80px;
   max-width: 100px;
   max-height: 100px;
-  margin: 290px 0 0 100px;
+  margin: 110px 0 0 100px;
 }
 
 .company_name_one {
@@ -313,13 +313,13 @@ a {
   font-weight: 650;
   margin-left: 20px;
   display: block;
-  margin: 314px 0 0 15px;
+  margin: 133px 0 0 15px;
   vertical-align: top;
   display: inline-block;
 }
 
 .connect {
-  margin: -80px 0px 100px 1100px;
+  margin: -90px 0px 100px 1100px;
   font-size: 90px;
   font-weight: 790;
   width: 900px;
@@ -343,7 +343,7 @@ a {
 }
 
 .mail {
-  margin-bottom: 400px;
+  margin-bottom: 320px;
 }
 
 .linkdin,
@@ -435,7 +435,6 @@ a {
 }
 
 .top_button {
-  background: rgb(119, 63, 192);
   background: linear-gradient(
     90deg,
     rgba(119, 63, 192, 1) 1%,
@@ -444,11 +443,10 @@ a {
     rgba(255, 25, 67, 1) 100%
   );
   border: none;
-  padding: 8px 35px;
-  display: flex;
+  padding: 15px 18px;
   display: inline-block;
-  margin: 10px 0 0 110px;
-  margin-bottom: 100px;
+  margin: -100px 830px 0 830px;
+  margin-bottom: 60px;
   border-radius: 60px;
   cursor: pointer;
 }
