@@ -338,9 +338,9 @@ a {
 }
 
 .linkdin {
-  width: 60px;
-  height: 60px;
-  margin: -220px 0 300px 1105px;
+  width: 61px;
+  height: 61px;
+  margin: -225px 0 300px 1105px;
 }
 
 .linkdin:hover {
@@ -401,7 +401,7 @@ a {
 .twitter {
   width: 58px;
   height: 58px;
-  margin: -382px 0 300px 1385px;
+  margin: -383px 0 300px 1385px;
 }
 
 .twitter:hover {
