@@ -383,10 +383,94 @@ a {
   );
 }
 
-.linkdin {
+.linkdin,
+.ig,
+.fb,
+.twitter {
   width: 60px;
   height: 60px;
   display: flex;
   justify-content: center;
+}
+
+.linkdin {
   margin: -240px 0 300px 1105px;
+  cursor: pointer;
+}
+
+.linkdin:hover {
+  background-color: rgb(12, 100, 197);
+  -webkit-box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
+  box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
+  border-radius: 16px;
+}
+
+.ig {
+  width: 59px;
+  height: 59px;
+  margin: -360px 0 200px 1205px;
+  cursor: pointer;
+}
+
+.ig:hover {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  -webkit-box-shadow: 0 0 30px rgba(188, 24, 136, 0.582);
+  box-shadow: 0 0 30px rgba(188, 24, 136, 0.582);
+  border-radius: 16px;
+}
+
+.fb {
+  width: 57px;
+  height: 56px;
+  margin: -258px 0 300px 1300px;
+  cursor: pointer;
+  /* position: absolute; */
+}
+
+.fb:hover {
+  background-color: rgb(12, 100, 197);
+  -webkit-box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
+  box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
+  border-radius: 14px;
+  /* padding: 2px 0; */
+}
+
+.twitter {
+  width: 50px;
+  height: 50px;
+  margin: -352px 0 300px 1390px;
+  cursor: pointer;
+  /* position: relative; */
+}
+
+.twitter:hover {
+  background: rgb(12, 100, 197);
+  -webkit-box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
+  box-shadow: 0 0 30px rgba(12, 101, 197, 0.562);
+  border-radius: 25px;
+  background-size: 100% 100%;
 }
