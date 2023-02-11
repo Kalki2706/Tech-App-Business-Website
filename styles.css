@@ -356,7 +356,7 @@ a {
 }
 
 .linkdin {
-  margin: -240px 0 300px 1105px;
+  margin: -220px 0 300px 1105px;
   cursor: pointer;
 }
 
@@ -370,7 +370,7 @@ a {
 .ig {
   width: 59px;
   height: 59px;
-  margin: -360px 0 200px 1205px;
+  margin: -387px 0 200px 1205px;
   cursor: pointer;
 }
 
@@ -408,7 +408,7 @@ a {
 .fb {
   width: 57px;
   height: 56px;
-  margin: -258px 0 300px 1295px;
+  margin: -285px 0 300px 1295px;
   cursor: pointer;
 }
 
@@ -422,12 +422,12 @@ a {
 .twitter {
   width: 58px;
   height: 58px;
-  margin: -357px 0 300px 1385px;
+  margin: -382px 0 300px 1385px;
   cursor: pointer;
 }
 
 .twitter:hover {
-  background: rgb(29, 161, 242);
+  background-color: rgb(29, 161, 242);
   -webkit-box-shadow: 0 0 30px rgba(29, 160, 242, 0.562);
   box-shadow: 0 0 30px rgba(29, 160, 242, 0.562);
   border-radius: 25px;
