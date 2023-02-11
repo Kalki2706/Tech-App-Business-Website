@@ -170,9 +170,14 @@ a {
   color: rgb(147, 64, 255);
 }
 
-.sub_text {
+.sub_text,
+.sec_sub_text {
   font-family: "Codec Pro Bold";
+  src: url("CodecPro-Light.ttf") format("truetype");
   color: rgb(255, 255, 255);
+}
+
+.sub_text {
   text-align: center;
   font-size: 34px;
   line-height: 55px;
@@ -188,12 +193,9 @@ a {
 }
 
 .sec_sub_text {
-  font-family: "Codec Pro Bold";
-  src: url("CodecPro-Light.ttf") format("truetype");
   margin: 0px 100px;
   font-size: 33px;
   font-weight: 500;
-  color: rgb(255, 255, 255);
 }
 
 .sec_txt {
