@@ -120,6 +120,49 @@ h1,
   width: 600px;
 }
 
+.more_button:hover,
+.top_button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 25, 67, 1) 1%,
+    rgba(255, 36, 201, 1) 30%,
+    rgba(197, 31, 218, 1) 65%,
+    rgba(119, 63, 192, 1) 100%
+  );
+}
+
+.more_button:active,
+.top_button:active {
+  background: linear-gradient(
+    90deg,
+    rgba(119, 63, 192, 1) 1%,
+    rgba(197, 31, 218, 1) 30%,
+    rgba(255, 36, 201, 1) 65%,
+    rgba(255, 25, 67, 1) 100%
+  );
+}
+
+.number,
+.address,
+.mail {
+  font-family: "Codec Pro";
+  src: url("CodecPro-Light.ttf") format("truetype");
+  font-size: 33px;
+  font-weight: 480;
+  line-height: 55px;
+  margin-left: 1107px;
+  color: rgb(255, 255, 255);
+}
+
+.linkdin,
+.ig,
+.fb,
+.twitter {
+  display: flex;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
 .main_img {
   max-width: 800px;
   max-height: 700px;
@@ -156,26 +199,6 @@ h1 {
   padding: 8px 35px;
   display: flex;
   margin: -380px 100px;
-}
-
-.more_button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 25, 67, 1) 1%,
-    rgba(255, 36, 201, 1) 30%,
-    rgba(197, 31, 218, 1) 65%,
-    rgba(119, 63, 192, 1) 100%
-  );
-}
-
-.more_button:active {
-  background: linear-gradient(
-    90deg,
-    rgba(119, 63, 192, 1) 1%,
-    rgba(197, 31, 218, 1) 30%,
-    rgba(255, 36, 201, 1) 65%,
-    rgba(255, 25, 67, 1) 100%
-  );
 }
 
 a {
@@ -308,33 +331,12 @@ a {
   line-height: 100px;
 }
 
-.number,
-.address,
-.mail {
-  font-family: "Codec Pro";
-  src: url("CodecPro-Light.ttf") format("truetype");
-  font-size: 33px;
-  font-weight: 480;
-  line-height: 55px;
-  margin-left: 1107px;
-  color: rgb(255, 255, 255);
-}
-
 .number {
   margin-top: -60px;
 }
 
 .mail {
   margin-bottom: 320px;
-}
-
-.linkdin,
-.ig,
-.fb,
-.twitter {
-  display: flex;
-  cursor: pointer;
-  border-radius: 16px;
 }
 
 .linkdin {
@@ -421,24 +423,4 @@ a {
   padding: 15px 18px;
   display: inline-block;
   margin-bottom: 50px;
-}
-
-.top_button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 25, 67, 1) 1%,
-    rgba(255, 36, 201, 1) 30%,
-    rgba(197, 31, 218, 1) 65%,
-    rgba(119, 63, 192, 1) 100%
-  );
-}
-
-.top_button:active {
-  background: linear-gradient(
-    90deg,
-    rgba(119, 63, 192, 1) 1%,
-    rgba(197, 31, 218, 1) 30%,
-    rgba(255, 36, 201, 1) 65%,
-    rgba(255, 25, 67, 1) 100%
-  );
 }
