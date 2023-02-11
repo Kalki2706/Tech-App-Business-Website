@@ -4,4 +4,4 @@ The website clone is ready 😍
 
 #Preview
 
-<img src="./images/preview.png" alt="preview of website">
+<img src="./images/preview_one.png" alt="preview of website">
