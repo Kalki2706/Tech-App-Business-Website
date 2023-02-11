@@ -22,15 +22,6 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-.logo,
-.logo_one {
-  width: 80px;
-  height: 80px;
-  max-width: 100px;
-  max-height: 100px;
-  margin: 40px 0 0 100px;
-}
-
 #company_name,
 h1,
 a,
@@ -45,6 +36,15 @@ a,
   src: url("CodecPro-ExtraBold.ttf") format("truetype");
 }
 
+.logo,
+.logo_one {
+  width: 80px;
+  height: 80px;
+  max-width: 100px;
+  max-height: 100px;
+  margin: 40px 0 0 100px;
+}
+
 #company_name,
 .company_name_one {
   font-size: 35px;
@@ -53,6 +53,23 @@ a,
   margin: 65px 0 0 15px;
   vertical-align: top;
   display: inline-block;
+}
+
+h1,
+.main_text,
+.sec_main_text,
+.third_main_text,
+.fourth_main_text {
+  font-weight: 790;
+}
+
+.sub_text,
+.sec_sub_text,
+.third_text,
+.third_text_one {
+  font-family: "Codec Pro Bold";
+  src: url("CodecPro-Light.ttf") format("truetype");
+  color: rgb(255, 255, 255);
 }
 
 .main_img {
@@ -72,14 +89,6 @@ a,
   margin: -750px 0 0 540px;
   padding: 110px 325px;
   position: none;
-}
-
-h1,
-.main_text,
-.sec_main_text,
-.third_main_text,
-.fourth_main_text {
-  font-weight: 790;
 }
 
 h1 {
@@ -159,52 +168,46 @@ a {
   margin: 630px 500px 0 500px;
 }
 
-.main_text {
+.main_text,
+.sec_main_text,
+.third_main_text,
+.fourth_main_text {
   font-size: 90px;
+  line-height: 100px;
+}
+
+.main_text {
   text-align: center;
   margin: 100px;
-  line-height: 100px;
 }
 
 .text_color {
   color: rgb(147, 64, 255);
 }
 
-.sub_text,
-.sec_sub_text {
-  font-family: "Codec Pro Bold";
-  src: url("CodecPro-Light.ttf") format("truetype");
-  color: rgb(255, 255, 255);
-}
-
 .sub_text {
   text-align: center;
   font-size: 34px;
-  line-height: 55px;
   margin-top: 100px;
   margin-bottom: -500px;
 }
 
 .sec_main_text {
   margin: 130px 0 100px 100px;
-  font-size: 90px;
   width: 700px;
-  line-height: 100px;
 }
 
 .sec_sub_text {
   margin: 0px 100px;
-  font-size: 33px;
-  font-weight: 500;
 }
 
 .sec_txt {
   margin-bottom: 60px;
 }
 
-.sec_txt_one {
+.sec_txt_one,
+.third_text_one {
   width: 700px;
-  line-height: 50px;
 }
 
 .sec_img {
@@ -218,31 +221,16 @@ a {
 
 .third_main_text {
   margin: 120px 0px 100px 1020px;
-  font-size: 90px;
   width: 900px;
-  line-height: 100px;
 }
 
 .third_text {
-  font-family: "Codec Pro Bold";
-  color: rgb(255, 255, 255);
-  src: url("CodecPro-Light.ttf") format("truetype");
   width: 600px;
   margin: 0px 0px 50px 1019px;
-  font-size: 33px;
-  font-weight: 500;
-  line-height: 50px;
 }
 
 .third_text_one {
-  font-family: "Codec Pro Bold";
-  color: rgb(255, 255, 255);
-  src: url("CodecPro-Light.ttf") format("truetype");
-  width: 700px;
   margin: 0px 0px 0px 1019px;
-  font-size: 33px;
-  font-weight: 500;
-  line-height: 50px;
 }
 
 .third_img {
@@ -255,11 +243,14 @@ a {
 
 .fourth_main_text {
   margin: 140px 0 100px 100px;
-  font-size: 90px;
   width: 800px;
-  line-height: 100px;
 }
 
+.sub_text,
+.sec_sub_text,
+.sec_txt_one,
+.third_text,
+.third_text_one,
 .fourth_text,
 .fourth_text_one,
 .fourth_text_two {
