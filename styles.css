@@ -63,6 +63,28 @@ h1,
   font-weight: 790;
 }
 
+.more_button,
+.top_button {
+  background: linear-gradient(
+    90deg,
+    rgba(119, 63, 192, 1) 1%,
+    rgba(197, 31, 218, 1) 30%,
+    rgba(255, 36, 201, 1) 65%,
+    rgba(255, 25, 67, 1) 100%
+  );
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.main_text,
+.sec_main_text,
+.third_main_text,
+.fourth_main_text {
+  font-size: 90px;
+  line-height: 100px;
+}
+
 .sub_text,
 .sec_sub_text,
 .third_text,
@@ -70,6 +92,32 @@ h1,
   font-family: "Codec Pro Bold";
   src: url("CodecPro-Light.ttf") format("truetype");
   color: rgb(255, 255, 255);
+}
+
+.sub_text,
+.sec_sub_text,
+.sec_txt_one,
+.third_text,
+.third_text_one,
+.fourth_text,
+.fourth_text_one,
+.fourth_text_two {
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 50px;
+  font-family: "Codec Pro Bold";
+  src: url("CodecPro-Light.ttf") format("truetype");
+  color: rgb(255, 255, 255);
+}
+
+.sec_txt_one,
+.third_text_one {
+  width: 700px;
+}
+
+.third_text,
+.fourth_text_one {
+  width: 600px;
 }
 
 .main_img {
@@ -105,20 +153,9 @@ h1 {
 }
 
 .more_button {
-  background: rgb(119, 63, 192);
-  background: linear-gradient(
-    90deg,
-    rgba(119, 63, 192, 1) 1%,
-    rgba(197, 31, 218, 1) 30%,
-    rgba(255, 36, 201, 1) 65%,
-    rgba(255, 25, 67, 1) 100%
-  );
-  border: none;
   padding: 8px 35px;
   display: flex;
   margin: -380px 100px;
-  border-radius: 60px;
-  cursor: pointer;
 }
 
 .more_button:hover {
@@ -168,14 +205,6 @@ a {
   margin: 630px 500px 0 500px;
 }
 
-.main_text,
-.sec_main_text,
-.third_main_text,
-.fourth_main_text {
-  font-size: 90px;
-  line-height: 100px;
-}
-
 .main_text {
   text-align: center;
   margin: 100px;
@@ -205,11 +234,6 @@ a {
   margin-bottom: 60px;
 }
 
-.sec_txt_one,
-.third_text_one {
-  width: 700px;
-}
-
 .sec_img {
   max-width: 800px;
   max-height: 700px;
@@ -225,7 +249,6 @@ a {
 }
 
 .third_text {
-  width: 600px;
   margin: 0px 0px 50px 1019px;
 }
 
@@ -246,29 +269,12 @@ a {
   width: 800px;
 }
 
-.sub_text,
-.sec_sub_text,
-.sec_txt_one,
-.third_text,
-.third_text_one,
-.fourth_text,
-.fourth_text_one,
-.fourth_text_two {
-  font-size: 33px;
-  font-weight: 500;
-  line-height: 50px;
-  font-family: "Codec Pro Bold";
-  src: url("CodecPro-Light.ttf") format("truetype");
-  color: rgb(255, 255, 255);
-}
-
 .fourth_text {
   width: 600px;
   margin: 0px 0px 50px 100px;
 }
 
 .fourth_text_one {
-  width: 600px;
   margin: 0px 0px 0px 100px;
 }
 
@@ -412,19 +418,9 @@ a {
 }
 
 .top_button {
-  background: linear-gradient(
-    90deg,
-    rgba(119, 63, 192, 1) 1%,
-    rgba(197, 31, 218, 1) 30%,
-    rgba(255, 36, 201, 1) 65%,
-    rgba(255, 25, 67, 1) 100%
-  );
-  border: none;
   padding: 15px 18px;
   display: inline-block;
   margin-bottom: 50px;
-  border-radius: 60px;
-  cursor: pointer;
 }
 
 .top_button:hover {
