@@ -4,4 +4,4 @@ The <a href="https://kalki2706.github.io/Tech-App-Business-Website/" >Website Cl
 
 #Preview
 
-<img src="./images/preview_one.png" alt="preview of website">
+<img src="./images/preview_one-min.png" alt="preview of website">
