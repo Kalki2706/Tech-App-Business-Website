@@ -18,6 +18,10 @@ html {
   height: 100%;
   margin-right: 0;
   scroll-behavior: smooth;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* overflow: scroll; */
 }
 
 body::-webkit-scrollbar {
@@ -169,8 +173,8 @@ h1,
   max-height: 700px;
   height: 100%;
   display: flex;
-  margin: 230px 0 0 625px;
-  padding: 0px 450px;
+  margin: 230px 0 0 1025px;
+  /* padding: 0px 450px; */
   position: absolute;
 }
 
@@ -178,20 +182,17 @@ h1,
   max-width: 1000px;
   height: 100%;
   display: flex;
-  margin: -750px 0 0 540px;
-  padding: 110px 325px;
+  margin: -750px 0 110px 540px;
+  /* padding: 110px 325px; */
   position: none;
 }
 
-h1,
-.color {
+h1 {
+  text-shadow: 0 0 7px rgb(30, 55, 162), 0 0 10px rgb(30, 55, 162),
+    0 0 21px rgb(30, 55, 162), 0 0 42px rgb(30, 55, 162);
   font-size: 120px;
   width: 700px;
   line-height: 150px;
-}
-
-.color {
-  color: rgb(147, 64, 255);
 }
 
 .heading {
